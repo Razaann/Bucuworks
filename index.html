@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bucuworks</title>
+    <link rel="stylesheet" href="bucuworks.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logoBucuWorks.jpg" alt="Bucuworks Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home-section">Home</a></li>
+            <li><a href="#about-section">About</a></li>
+            <li><a href="#reference">References</a></li>
+            <li><a href="#gallery-section">Gallery</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="contact us/">Contact Us</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home-section">
+        <img src="images/Kitchen1.png" alt="Deskripsi Gambar" />
+        <div class="home-text">
+            <h1 class="poppins-bold">Selamat Datang di Bucuworks</h1>
+            <p class="poppins-semibold">Furniture dan Desain Interior untuk Rumah Anda</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about-section">
+        <div class="about-content">
+            <div class="about-image">
+                <img class="hover" src="images/coba.jpg" alt="Bucuworks Image">
+            </div>
+            <div class="about-text">
+                <h2 class="poppins-bold mid-text">About Bucuworks</h2>
+                <p class="poppins-semibold mid-text">Bucuworks adalah perusahaan yang berdedikasi untuk menyediakan furnitur dan desain interior berkualitas tinggi untuk rumah dan ruang kantor Anda. Produk kami dirancang dengan gaya, kenyamanan, dan daya tahan, menawarkan berbagai pilihan furnitur untuk meningkatkan setiap ruang.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reference Section -->
+    <section id="reference">
+        <div class="container">
+            <div class="title poppins-semibold">References</div>
+            <div class="images">
+                <a href="furniture-reference.html" class="image-container">
+                    <img src="https://storage.googleapis.com/a1aa/image/TeCSeexcUhdJQICAB6Q5GNeLrxG0i04cHixh3Mokv6usemXeE.jpg" alt="A stylish living room with a white chaise lounge, round wooden side table, and modern decor.">
+                    <div class="overlay">
+                        <p>Furniture Reference</p>
+                    </div>
+                </a>
+                <a href="Reference-Interior.html" class="image-container">
+                    <img src="images/Background-form.jpg" alt="A cozy living room with two blue armchairs, a coffee table, and a large window.">
+                    <div class="overlay">
+                        <p>Interior Reference</p>
+                    </div>
+                </a>
+                <a href="exterior-reference.html" class="image-container">
+                    <img src="images/eksterior5.jpg" alt="A modern living room with a white dresser, coffee table, and pendant light.">
+                    <div class="overlay">
+                        <p>Exterior Reference</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Gallery Section -->
+    <section id="gallery-section" class="gallery">
+        <h2 class="poppins-bold mid-text">Gallery</h2>
+        <p class="poppins-semibold mid-text">Explore Our Collection of Videos</p>
+        <div class="gallery-container">
+            <div class="gallery-prev">&#10094;</div>
+            <div class="gallery-videos">
+                <video src="images/video1.mp4" controls muted></video>
+                <video src="images/video2.mp4" controls muted></video>
+                <video src="images/video3.mp4" controls muted></video>
+                <video src="images/video4.mp4" controls muted></video>
+                <video src="images/video5.mp4" controls muted></video>
+            </div>
+            <div class="gallery-next">&#10095;</div>
+        </div>
+    </section>
+
+    <script src="bucuworks.js"></script>
+
+</body>
+</html>
