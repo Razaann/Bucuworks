@@ -1,0 +1,70 @@
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-inline: 100px;
+}
+
+.img-mid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-size {
+    width: 400px;
+    height: 400px;
+    border-radius: 4px;
+    margin: 6px;
+    outline: 0px solid #333333;
+    transition: transform 0.3s ease;
+}
+
+.img-size:hover{
+    transform: scale(1.05);
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/patterns/wood.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-attachment: fixed;
+    transition: background-color 0.3s ease;
+    position: relative;
+}
