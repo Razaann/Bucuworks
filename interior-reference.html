@@ -1,40 +1,54 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interior Reference</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 20px;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 20px;
-        }
-        .grid-container img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            border-radius: 10px;
-        }
-    </style>
+    <title>Reference</title>
+    <link rel="stylesheet" href="bucuworks.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="grid-container">
-        <img src="images/interior11.jpg" alt="Interior image 1">
-        <img src="images/interior2.jpg" alt="Interior image 2">
-        <img src="images/interior4.jpg" alt="Interior image 3">
-        <img src="images/interior 5.jpg" alt="Interior image 4">
-        <img src="images/interior7.jpg" alt="Interior image 5">
-        <img src="images/interior 8.jpg" alt="Interior image 6">
-        <img src="images/interior12.webp" alt="Interior image 7">
-        <img src="images/Interior13.webp" alt="Interior image 8">
-        <img src="images/interiror 6.jpg" alt="Interior image 9">
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logoBucuWorks.jpg" alt="Bucuworks Logo">
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html#home-section">Home</a></li>
+            <li><a href="index.html#about-section">About</a></li>
+            <li><a href="index.html#reference">References</a></li>
+            <li><a href="index.html#gallery-section">Gallery</a></li>
+            <li><a href="index.html#team-section">Our Team</a></li>
+            <li><a href="index.html#booking">Booking</a></li>
+        </ul>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <div class="middle">
+        <h1 class="poppins-bold mid-text">Interior</h1>
+        <h3 class="poppins-semibold mid-text">Berikut adalah interior yang dapat anda jadikan referensi</h3>
+    </div>
+
+    <div class="img-mid">
+        <img class="img-size" src="images/interior11.jpg" alt="p">
+        <img class="img-size" src="images/interior 5.jpg" alt="p">
+        <img class="img-size" src="images/interior 8.jpg" alt="p">
+        <img class="img-size" src="images/interior1.webp" alt="p">
+        <img class="img-size" src="images/interior10.jpg" alt="p">
+        <img class="img-size" src="images/interior2.jpg" alt="p">
+        <img class="img-size" src="images/interior4.jpg" alt="p">
+        <img class="img-size" src="images/interior4.jpg" alt="p">
+        <img class="img-size" src="images/interior4.jpg" alt="p">
+        <img class="img-size" src="images/interior4.jpg" alt="p">
+        <img class="img-size" src="images/interiror 6.jpg" alt="p">
+        <img class="img-size" src="images/interior 5.jpg" alt="p">
     </div>
 </body>
 </html>
-```
