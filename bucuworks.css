@@ -689,4 +689,23 @@ textarea {
     }
 }
 
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-item a:hover {
+    color: #ff5722;
+}
+
 
